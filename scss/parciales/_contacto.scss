@@ -1,0 +1,104 @@
+ /* pagina contacto*/
+
+main{
+  .textocontacto{
+    .textoinicial__titulo1 {
+      color: black;
+      font-weight: 600;
+      text-align: center;
+      font-size: 50px;
+      letter-spacing: 1px;
+      margin: 0.5cm auto;
+    }
+    .textoinicial__titulo2 {
+      background-color: $colorprincipal;
+      font-size: 18px;
+      border-radius: 15px;
+      text-align: center;
+      width: 100%;
+      margin-left: 0.5cm auto;
+      color: white;
+      padding: 5px
+    }
+  }
+}
+
+
+
+
+
+
+
+ #efectocontacto {
+    -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+    animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  }
+  
+  @-webkit-keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+      filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+      filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+      filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+      filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  
+ 
+  .form-group {
+    margin-bottom: 20px;
+  }
+ 
+  .form-label {
+    font-size: 1em;
+    color: #000000;
+    font-weight: bolder;
+  }
+  
+  .form-control {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border-style: none;
+    padding: 5px;
+    width: 60%;
+    height: 1cm;
+  }
+  #textarea1 {
+    width: 100%;
+    height: 4cm;
+  }
+  .grid-container {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+  }
+  .grid-container > * {
+    background-color: rgba(7, 130, 161, 0.911);
+    padding: 40px;
+    width: 90%;
+    margin-top: 1cm;
+  }
+  
+  
+  .container {
+    margin-top: 2cm;
+    margin-bottom: 1cm;
+  }
+  .btn {
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.767);
+  }

@@ -1,0 +1,39 @@
+/*footer*/
+footer {
+  background-image: url(../imagenes/footer-imagen.webp);
+  color: $colorprincipal;
+  font-weight: bold;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  bottom: 0%;
+ 
+
+    .MenuInferior {
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 1px;
+    line-height: 25px;
+    padding-top: 30px;
+        .linkb {
+        letter-spacing: 1px;
+        color: rgb(255, 255, 255);
+        font-weight: bolder;
+        padding: 3px;
+    }
+  }
+
+
+
+   .copi {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: rgba(0, 0, 0, 0.808);
+    font-size: 16px;
+    width: 7.5cm;
+    padding-left: 10px;
+    background-color: #bdfcfc21;
+  }
+}

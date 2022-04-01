@@ -1,0 +1,35 @@
+/*pagina biografia*/
+main {
+  .titulobio {
+    background-color: $colorprincipal;
+    border-radius: 15px;
+    text-align: center;
+    color: #ffffff;
+    width: 16cm;
+    margin: 1.5cm auto;
+  }
+
+  .contenedorbio {
+    padding-right: 15px;
+    padding-left: 75px;
+    .col__medio {
+      padding-left: 60px;
+    }
+    .col-xl-5 {
+      padding-top: 1cm !important;
+    }
+  }
+}
+
+.subtitulo1 {
+  @include subtitulos(#55acee, $margenclasico);
+  padding-left: $relleno;
+}
+.subtitulo2 {
+  @include subtitulos(#007914, $margenclasico);
+  padding-left: $relleno;
+}
+.subtitulo3 {
+  @include subtitulos(#c25e30, $margenclasico);
+  padding-left: $relleno;
+}

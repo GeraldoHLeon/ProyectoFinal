@@ -1,0 +1,39 @@
+/* galeria*/
+
+.gallery {
+  background-color: transparent;
+  padding: 80px 0;
+  height: auto;
+  .col__overlaycontenedor {
+    img {
+      background-color: #ffffff;
+      padding: 15px;
+      width: 100%;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+      cursor: pointer;
+    }
+
+    .overlay {
+      background-color: #09718b88;
+      height: 30%;
+      opacity: 0;
+      z-index: 1;
+      transform: translate(0%, -100%);
+      transition: 0.5s ease;
+      position: relative;
+      .overlay-titulo {
+        color: #fff;
+        font-size: 14px;
+        text-align: center;
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        width: 90%;
+        transform: translate(-50%, -50%);
+      }
+    }
+  }
+}
+.col__overlaycontenedor:hover .overlay {
+  opacity: 1;
+}

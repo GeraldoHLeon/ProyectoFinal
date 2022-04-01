@@ -1,0 +1,299 @@
+/* vista tableta alta gama */
+@media (max-width: 1365px) {
+  .enlace {
+    background-color: transparent;
+  }
+  /*navbar tab*/
+  .enlace {
+    padding-left: 0;
+    font-size: 20px;
+  }
+  nav ul li a {
+    font-size: 12px;
+    padding: 3px 7px;
+  }
+  nav ul li {
+    display: inline-block;
+    line-height: 20px;
+    margin: 0 5px;
+    margin-top: 38px;
+  }
+
+  .contenedorbio {
+    padding-right: 25px;
+    padding-left: 5px !important;
+  }
+}
+
+.epi{
+  width: 70%;
+    
+}
+
+/*vista tableta convencionales*/
+@media (max-width: 991px) {
+  /*navbar tab*/
+  nav {
+    .enlace {
+      padding-left: 10px;
+      font-size: 26px;
+    }
+    .ul li a {
+      font-size: 12px;
+    }
+    .ul li {
+      display: inline-block;
+      line-height: 20px;
+      margin: 0 5px;
+      margin-top: 38px;
+    }
+  }
+  /*index tab*/
+
+  .textoinicial__titulo11 {
+    font-weight: 300;
+    font-size: 60px;
+  }
+
+  .textoinicial__titulo22 {
+    margin: 0.5 auto;
+  }
+
+  .textoinicial__parrafos {
+    color: black;
+    font-weight: bolder;
+    text-align: justify;
+    padding: 15px;
+    width: 100%;
+    margin: 3%;
+  }
+
+  .card {
+    margin-top: 1cm;
+  }
+
+  .container {
+    margin-top: 2cm;
+  }
+  /* impacto tab*/
+  .d-block {
+    margin: 0.5cm auto;
+    width: 90%;
+    height: 14cm;
+  }
+  .textoinicial__titulo1 {
+    margin: 0.5cm auto;
+  }
+
+  .textoinicial__titulo1--2 {
+    font-size: 30px;
+    background-color: $colorprincipal;
+    font-weight: bold;
+    margin: 1cm auto;
+  }
+  .text-center {
+    margin-left: 0.5cm auto;
+  }
+
+  .auto3__imagen {
+    width: 70%;
+    height: 10cm;
+    margin-left: 3cm;
+  }
+  .epi {
+    font-size: 12px;
+    width: 60%;
+  }
+
+  .overlay-titulo {
+    font-size: 12px;
+    width: 100% !important;
+  }
+}
+
+/*vista mobile y horizontal*/
+@media (max-width: 767px) {
+  /*navbar mob*/
+  nav {
+    position: relative;
+    background-color: #09718b88;
+    z-index: 2;
+
+    .checkbtn {
+      display: block;
+    }
+
+    .imgbtn {
+      height: 80px;
+      margin-left: 11cm;
+      margin-top: 5px;
+    }
+    .enlace {
+      margin-top: 30px;
+      margin-left: 20px;
+      font-size: 30px;
+
+      .logo {
+        display: none;
+      }
+    }
+
+    ul {
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: #487a86;
+      top: 80px;
+      left: -100%;
+      text-align: center;
+      transition: all 0.5s;
+
+      li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+
+        a {
+          font-size: 20px;
+        }
+      }
+    }
+
+    #check:checked ~ ul {
+      left: 0;
+    }
+  }
+
+  li a:hover,
+  li a.active {
+    background: none;
+    color: rgb(0, 0, 0);
+    box-shadow: none;
+  }
+
+  footer {
+    height: 2cm;
+
+    .linkb {
+      display: none;
+    }
+
+    .copi {
+      justify-content: flex-end;
+      align-items: flex-end;
+      color: rgb(255, 255, 255);
+      width: 100%;
+      background-color: transparent;
+    }
+  }
+
+  /*index mob*/
+
+  .textoinicial__titulo11 {
+    font-weight: 300;
+    font-size: 40px;
+    padding-top: 1cm;
+    margin-top: 0%;
+  }
+
+  .textoinicial__titulo22 {
+    margin-left: 2.5cm;
+    margin-bottom: 0.5cm;
+  }
+
+  .card {
+    margin: 0.5cm auto;
+    position: unset;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+  .contenedorbio {
+    margin: 0.2cm auto;
+    padding-right: 45px !important;
+  }
+  .col__medio {
+    padding-left: 0% !important;
+  }
+
+  .row-cols-2 > * {
+    width: 100% !important;
+  }
+
+  /*biografia mob*/
+
+  .titulobio {
+    margin: 0.5cm auto;
+    width: 9cm !important;
+  }
+  .textoinicial__parrafos {
+    padding: 0px;
+  }
+
+  /*galeria mob*/
+
+  .overlay-titulo {
+    width: 100%;
+    background-color: #09718bb2;
+    padding: 5px;
+  }
+  .row-cols-sm-2 > * {
+    width: 100% !important;
+    margin: $margenclasico;
+    padding: 20px;
+  }
+
+  /* contacto mob*/
+
+  .grid-container > * {
+    padding: 10px;
+    margin: 0.5cm auto;
+  }
+
+  .container {
+    margin-top: 1cm;
+  }
+
+  .textoinicial__titulo1 {
+    color: #fff;
+    margin-left: 10px;
+  }
+
+  .textoinicial__titulo2 {
+    font-size: 16px;
+    width: auto;
+  }
+
+  /* impacto mob*/
+  .d-block {
+    width: 15cm;
+    height: 9cm;
+  }
+
+  .textoinicial__titulo1--2 {
+    font-size: 24px !important;
+    background-color: $colorprincipal;
+    font-weight: bold;
+    margin: 1cm auto;
+  }
+  .text-center {
+    margin-left: 0.5cm auto;
+  }
+  .epi {
+    font-size: 12px;
+    margin-left: 1cm;
+    width: 90%;
+  }
+  .epi3 {
+    font-size: 12px;
+    width: 75%;
+  }
+
+  
+  .auto3__imagen {
+    width: 100%;
+    margin: $margenclasico !important;
+  }
+}
