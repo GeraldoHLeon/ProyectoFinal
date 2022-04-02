@@ -20,7 +20,7 @@ body {
 
 /*navbar*/
 nav {
-  background-color: #09718b88;
+  background-color: #479ead;
   height: 100px;
   width: 100%;
   box-shadow: 5px 0 10px #333333; }
@@ -141,6 +141,9 @@ main .card {
   padding: 25px;
   width: 95%;
   margin: 3%; }
+
+.parrafoindex {
+  padding: auto 0,5cm; }
 
 /*efecto titulo*/
 .textoinicial__titulo11 {
@@ -451,9 +454,10 @@ main .textocontacto .textoinicial__titulo2 {
 @media (max-width: 767px) {
   /*navbar mob*/
   nav {
-    position: relative;
-    background-color: #09718b88;
-    z-index: 2; }
+    position: fixed;
+    background-color: #479ead;
+    z-index: 2;
+    margin-top: 0%; }
     nav .checkbtn {
       display: block; }
     nav .imgbtn {
@@ -501,9 +505,9 @@ main .textocontacto .textoinicial__titulo2 {
   /*index mob*/
   .textoinicial__titulo11 {
     font-weight: 300;
-    font-size: 40px;
-    padding-top: 1cm;
-    margin-top: 0%; }
+    font-size: 25px;
+    padding-top: 3cm;
+    margin-top: 0cm !important; }
   .textoinicial__titulo22 {
     margin-left: 2.5cm;
     margin-bottom: 0.5cm; }
@@ -520,6 +524,9 @@ main .textocontacto .textoinicial__titulo2 {
     padding-left: 0% !important; }
   .row-cols-2 > * {
     width: 100% !important; }
+  .parrafoindex {
+    padding-left: 20px;
+    padding-right: 20px; }
   /*biografia mob*/
   .titulobio {
     margin: 0.5cm auto;
