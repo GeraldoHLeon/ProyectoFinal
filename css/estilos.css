@@ -15,6 +15,9 @@ body {
   background-size: cover;
   height: auto; }
 
+main {
+  padding-top: 3cm; }
+
 ::selection {
   background-color: yellow; }
 
@@ -103,8 +106,7 @@ main .textoinicial__titulo11 {
   font-weight: 600;
   text-align: center;
   font-size: 80px;
-  letter-spacing: 3px;
-  margin-top: 2cm; }
+  letter-spacing: 3px; }
 
 main .textoinicial__titulo22 {
   background-color: #ffae00d7;
@@ -141,9 +143,6 @@ main .card {
   padding: 25px;
   width: 95%;
   margin: 3%; }
-
-.parrafoindex {
-  padding: auto 0,5cm; }
 
 /*efecto titulo*/
 .textoinicial__titulo11 {
@@ -183,15 +182,16 @@ main .titulobio {
   text-align: center;
   color: #ffffff;
   width: 16cm;
-  margin: 1.5cm auto; }
+  margin: 0 auto;
+  margin-bottom: 1cm; }
 
-main .contenedorbio {
-  padding-right: 15px;
-  padding-left: 75px; }
-  main .contenedorbio .col__medio {
-    padding-left: 60px; }
-  main .contenedorbio .col-xl-5 {
-    padding-top: 1cm !important; }
+main .grido {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto; }
+
+main .imagenbio {
+  padding: 30px; }
 
 .subtitulo1 {
   color: #55acee;
@@ -387,10 +387,7 @@ main .textocontacto .textoinicial__titulo2 {
     display: inline-block;
     line-height: 20px;
     margin: 0 5px;
-    margin-top: 38px; }
-  .contenedorbio {
-    padding-right: 25px;
-    padding-left: 5px !important; } }
+    margin-top: 38px; } }
 
 .epi {
   width: 70%; }
@@ -418,9 +415,7 @@ main .textocontacto .textoinicial__titulo2 {
     color: black;
     font-weight: bolder;
     text-align: justify;
-    padding: 15px;
-    width: 100%;
-    margin: 3%; }
+    padding: 15px; }
   .card {
     margin-top: 1cm; }
   .container {
@@ -505,31 +500,24 @@ main .textocontacto .textoinicial__titulo2 {
   /*index mob*/
   .textoinicial__titulo11 {
     font-weight: 300;
-    font-size: 25px;
-    padding-top: 3cm;
-    margin-top: 0cm !important; }
+    font-size: 25px; }
   .textoinicial__titulo22 {
     margin-left: 2.5cm;
     margin-bottom: 0.5cm; }
   .card {
     margin: 0.5cm auto;
     position: unset; }
-  .row {
-    display: flex;
+  .grido {
+    display: flex !important;
     flex-direction: column; }
-  .contenedorbio {
-    margin: 0.2cm auto;
-    padding-right: 45px !important; }
-  .col__medio {
-    padding-left: 0% !important; }
-  .row-cols-2 > * {
-    width: 100% !important; }
+  .textobio {
+    padding-right: 30px;
+    padding-left: 55px; }
   .parrafoindex {
     padding-left: 20px;
     padding-right: 20px; }
   /*biografia mob*/
   .titulobio {
-    margin: 0.5cm auto;
     width: 9cm !important; }
   .textoinicial__parrafos {
     padding: 0px; }

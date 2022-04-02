@@ -19,10 +19,10 @@
     margin-top: 38px;
   }
 
-  .contenedorbio {
-    padding-right: 25px;
-    padding-left: 5px !important;
-  }
+  // .contenedorbio {
+  //   padding-right: 25px;
+  //   padding-left: 5px !important;
+  // }
 }
 
 .epi{
@@ -64,8 +64,8 @@
     font-weight: bolder;
     text-align: justify;
     padding: 15px;
-    width: 100%;
-    margin: 3%;
+   
+    
   }
 
   .card {
@@ -193,8 +193,7 @@
   .textoinicial__titulo11 {
     font-weight: 300;
     font-size: 25px;
-    padding-top: 3cm;
-    margin-top: 0cm !important;
+
   }
 
   .textoinicial__titulo22 {
@@ -207,21 +206,15 @@
     position: unset;
   }
 
-  .row {
-    display: flex;
+  .grido {
+    display: flex !important;
     flex-direction: column;
   }
-  .contenedorbio {
-    margin: 0.2cm auto;
-    padding-right: 45px !important;
+  .textobio {
+    padding-right: 30px;
+    padding-left: 55px;
   }
-  .col__medio {
-    padding-left: 0% !important;
-  }
-
-  .row-cols-2 > * {
-    width: 100% !important;
-  }
+ 
   .parrafoindex{
     padding-left: 20px ;
     padding-right: 20px; ;
@@ -230,7 +223,7 @@
   /*biografia mob*/
 
   .titulobio {
-    margin: 0.5cm auto;
+  
     width: 9cm !important;
   }
   .textoinicial__parrafos {
