@@ -16,7 +16,7 @@ body {
   height: auto; }
 
 main {
-  padding-top: 3cm; }
+  padding-top: 0.7cm; }
 
 ::selection {
   background-color: yellow; }
@@ -183,7 +183,8 @@ main .titulobio {
   color: #ffffff;
   width: 16cm;
   margin: 0 auto;
-  margin-bottom: 1cm; }
+  margin-bottom: 1cm;
+  font-weight: bold; }
 
 main .grido {
   display: grid;
@@ -361,11 +362,9 @@ main .textocontacto .textoinicial__titulo2 {
 .grid-container > * {
   background-color: rgba(7, 130, 161, 0.911);
   padding: 40px;
-  width: 90%;
-  margin-top: 1cm; }
+  width: 90%; }
 
 .container {
-  margin-top: 2cm;
   margin-bottom: 1cm; }
 
 .btn {
@@ -373,10 +372,11 @@ main .textocontacto .textoinicial__titulo2 {
 
 /* vista tableta alta gama */
 @media (max-width: 1365px) {
-  .enlace {
-    background-color: transparent; }
   /*navbar tab*/
+  main {
+    padding-top: 3cm; }
   .enlace {
+    background-color: transparent;
     padding-left: 0;
     font-size: 20px; }
   nav ul li a {
@@ -415,10 +415,12 @@ main .textocontacto .textoinicial__titulo2 {
     font-weight: bolder;
     text-align: justify;
     padding: 15px; }
+  main .textocontacto .textoinicial__titulo1 {
+    font-size: 30px; }
+  main .textocontacto .textoinicial__titulo2 {
+    font-size: 16px; }
   .card {
     margin-top: 1cm; }
-  .container {
-    margin-top: 2cm; }
   /* impacto tab*/
   .d-block {
     margin: 0.5cm auto;
@@ -450,7 +452,7 @@ main .textocontacto .textoinicial__titulo2 {
   nav {
     position: fixed;
     background-color: #479ead;
-    z-index: 2;
+    z-index: 3;
     margin-top: 0%; }
     nav .checkbtn {
       display: block; }
@@ -497,12 +499,12 @@ main .textocontacto .textoinicial__titulo2 {
       width: 100%;
       background-color: transparent; }
   /*index mob*/
-  .textoinicial__titulo11 {
-    font-weight: 300;
-    font-size: 25px; }
-  .textoinicial__titulo22 {
-    margin-left: 2.5cm;
-    margin-bottom: 0.5cm; }
+  main .textoinicial__titulo11 {
+    font-weight: bold;
+    font-size: 50px; }
+  main .textoinicial__titulo22 {
+    margin-bottom: 0.5cm;
+    width: auto; }
   .card {
     margin: 0.5cm auto;
     position: unset; }
@@ -511,14 +513,15 @@ main .textocontacto .textoinicial__titulo2 {
     flex-direction: column; }
   .textobio {
     padding-right: 30px;
-    padding-left: 55px; }
+    padding-left: 30px; }
   .parrafoindex {
     padding-left: 20px;
     padding-right: 20px; }
   /*biografia mob*/
-  .titulobio {
-    width: 9cm !important; }
-  .textoinicial__parrafos {
+  main .titulobio {
+    margin-top: 1cm;
+    width: auto; }
+  main .textoinicial__parrafos {
     padding: 0px; }
   /*galeria mob*/
   .overlay-titulo {
@@ -533,23 +536,24 @@ main .textocontacto .textoinicial__titulo2 {
   .grid-container > * {
     padding: 10px;
     margin: 0.5cm auto; }
-  .container {
-    margin-top: 1cm; }
   .textoinicial__titulo1 {
     color: #fff;
     margin-left: 10px; }
   .textoinicial__titulo2 {
     font-size: 16px;
     width: auto; }
+  .row {
+    display: block; }
   /* impacto mob*/
   .d-block {
     width: 15cm;
     height: 9cm; }
-  .textoinicial__titulo1--2 {
-    font-size: 24px !important;
+  .element1 .textoinicial__titulo1--2 {
+    font-size: 24px;
     background-color: #ffae00d7;
     font-weight: bold;
-    margin: 1cm auto; }
+    margin: 0.5cm auto;
+    width: auto; }
   .text-center {
     margin-left: 0.5cm auto; }
   .epi {
@@ -562,3 +566,31 @@ main .textocontacto .textoinicial__titulo2 {
   .auto3__imagen {
     width: 100%;
     margin: 0.5cm auto !important; } }
+
+@media (max-width: 320px) {
+  nav .enlace {
+    margin-top: 40px;
+    margin-left: 5px;
+    font-size: 18px; }
+  main .titulobio {
+    font-size: 20px; }
+  main .grido .textobio {
+    padding-left: 15px;
+    padding-right: 15px; }
+    main .grido .textobio .textoinicial__parrafos {
+      line-height: 15px;
+      font-weight: lighter; }
+  .subtitulo1 {
+    font-size: 18px;
+    padding-left: 20px;
+    text-align: center; }
+  .subtitulo2 {
+    font-size: 18px;
+    padding-left: 20px;
+    text-align: center; }
+  .subtitulo3 {
+    font-size: 18px;
+    padding-left: 20px;
+    text-align: center; }
+  .element1 .textoinicial__titulo1--2 {
+    font-size: 18px; } }

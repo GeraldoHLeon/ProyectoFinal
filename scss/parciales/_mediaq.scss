@@ -1,10 +1,9 @@
 /* vista tableta alta gama */
 @media (max-width: 1365px) {
-  .enlace {
+ /*navbar tab*/ 
+ main{ padding-top: 3cm;}
+ .enlace {
     background-color: transparent;
-  }
-  /*navbar tab*/
-  .enlace {
     padding-left: 0;
     font-size: 20px;
   }
@@ -19,10 +18,6 @@
     margin-top: 38px;
   }
 
-  // .contenedorbio {
-  //   padding-right: 25px;
-  //   padding-left: 5px !important;
-  // }
 }
 
 .epi{
@@ -68,13 +63,23 @@
     
   }
 
+main {
+  .textocontacto {
+  .textoinicial__titulo1{
+    font-size: 30px;
+  }
+
+  .textoinicial__titulo2{
+    font-size: 16px;
+  }
+}
+}
+
   .card {
     margin-top: 1cm;
   }
 
-  .container {
-    margin-top: 2cm;
-  }
+  
   /* impacto tab*/
   .d-block {
     margin: 0.5cm auto;
@@ -117,7 +122,7 @@
   nav {
     position: fixed;
     background-color: #479ead;
-    z-index: 2;
+    z-index: 3;
     margin-top: 0%;
 
     .checkbtn {
@@ -189,18 +194,19 @@
   }
 
   /*index mob*/
-
+main{
   .textoinicial__titulo11 {
-    font-weight: 300;
-    font-size: 25px;
+    font-weight: bold;
+    font-size: 50px;
 
   }
 
   .textoinicial__titulo22 {
-    margin-left: 2.5cm;
+   
     margin-bottom: 0.5cm;
+    width: auto;
   }
-
+}
   .card {
     margin: 0.5cm auto;
     position: unset;
@@ -212,7 +218,7 @@
   }
   .textobio {
     padding-right: 30px;
-    padding-left: 55px;
+    padding-left: 30px;
   }
  
   .parrafoindex{
@@ -222,13 +228,15 @@
 
   /*biografia mob*/
 
-  .titulobio {
+  main{.titulobio {
+  margin-top: 1cm;
+    width: auto,
+    
   
-    width: 9cm !important;
   }
   .textoinicial__parrafos {
     padding: 0px;
-  }
+  }}
 
   /*galeria mob*/
 
@@ -250,9 +258,6 @@
     margin: 0.5cm auto;
   }
 
-  .container {
-    margin-top: 1cm;
-  }
 
   .textoinicial__titulo1 {
     color: #fff;
@@ -263,19 +268,24 @@
     font-size: 16px;
     width: auto;
   }
+  .row{
+    display: block;
+  }
 
   /* impacto mob*/
   .d-block {
     width: 15cm;
     height: 9cm;
   }
-
+  .element1 {
   .textoinicial__titulo1--2 {
-    font-size: 24px !important;
+    font-size: 24px;
     background-color: $colorprincipal;
     font-weight: bold;
-    margin: 1cm auto;
+    margin: 0.5cm auto;
+    width: auto;
   }
+}
   .text-center {
     margin-left: 0.5cm auto;
   }
@@ -294,4 +304,40 @@
     width: 100%;
     margin: $margenclasico !important;
   }
+}
+
+// galaxy fold y dispositivos extra thin
+@media (max-width: 320px) {
+  nav{
+  .enlace {
+    margin-top: 40px;
+    margin-left: 5px;
+    font-size: 18px;}
+}
+
+main{
+
+  .titulobio{
+    font-size: 20px;
+  }
+
+  .grido{
+    .textobio{
+      padding-left: 15px;
+      padding-right: 15px;
+      .textoinicial__parrafos{
+        line-height: 15px;
+        font-weight: lighter;
+      }
+    }
+  }
+}
+.subtitulo1{ font-size: 18px; padding-left: 20px;text-align: center}
+.subtitulo2{ font-size: 18px; padding-left: 20px; text-align: center}
+.subtitulo3{ font-size: 18px; padding-left: 20px;text-align: center}
+
+.element1 .textoinicial__titulo1--2{
+font-size: 18px;
+}
+
 }
