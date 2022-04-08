@@ -4,16 +4,22 @@
   background-color: transparent;
   padding: 80px 0;
   height: auto;
-  .col__OverlayContenedor {
-    img {
+
+  .container-lg{
+    .row{
+      .col__OverlayContenedor:hover .Overlay {
+        opacity: 1;
+      }
+      .col__OverlayContenedor {
+         img {
       background-color: #ffffff;
       padding: 15px;
       width: 100%;
       box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
       cursor: pointer;
-    }
+     }
 
-    .Overlay {
+     .Overlay {
       background-color: #09718b88;
       height: 30%;
       opacity: 0;
@@ -21,6 +27,8 @@
       transform: translate(0%, -100%);
       transition: 0.5s ease;
       position: relative;
+
+      
       .OverlayTitulo {
         color: #fff;
         font-size: 14px;
@@ -34,6 +42,5 @@
     }
   }
 }
-.col__OverlayContenedor:hover .Overlay {
-  opacity: 1;
+}
 }
