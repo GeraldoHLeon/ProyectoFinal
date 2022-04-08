@@ -1,10 +1,7 @@
-$colorprincipal: #ffae00d7
-
-;
-@mixin subtitulos($colorletra, $margenes,) {
-    color: $colorletra;
-    margin: $margenes
-    }
-;
+$colorprincipal: #ffae00d7;
+@mixin subtitulos($colorletra, $margenes) {
+  color: $colorletra;
+  margin: $margenes;
+}
 $margenclasico: 0.5cm auto;
 $relleno: 40px;

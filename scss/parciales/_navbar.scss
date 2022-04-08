@@ -1,11 +1,11 @@
 /*navbar*/
-nav{
-  background-color:  #479ead;
+nav {
+  background-color: #479ead;
   height: 100px;
   width: 100%;
   box-shadow: 5px 0 10px rgb(51, 51, 51);
 
-    .checkbtn{
+  .checkbtn {
     font-size: 30px;
     color: #fff;
     float: right;
@@ -15,7 +15,7 @@ nav{
     display: none;
   }
 
-    .enlace{
+  .enlace {
     position: absolute;
     padding: 5px 50px;
     display: flex;
@@ -24,9 +24,9 @@ nav{
     font-size: 33px;
     color: $colorprincipal;
 
-       .logo {
-    height: 95px;}
-
+    .logo {
+      height: 95px;
+    }
   }
   ul {
     float: right;
@@ -45,20 +45,15 @@ nav{
       }
     }
   }
-
 }
 
+li a.active,
+li a:hover {
+  background: $colorprincipal;
+  transition: 0.5s;
+  box-shadow: 0 5px 15px 0px rgba(255, 251, 0, 0.822);
+}
 
-
-  li a.active,
-  li a:hover {
-    background: $colorprincipal;
-    transition: 0.5s;
-    box-shadow: 0 5px 15px 0px rgba(255, 251, 0, 0.822);
-  }
-  
-  
-  #check {
-    display: none;
-  }
-  
+#check {
+  display: none;
+}

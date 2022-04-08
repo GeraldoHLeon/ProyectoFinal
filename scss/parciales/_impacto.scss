@@ -1,8 +1,8 @@
 /* pagian de impacto cultural*/
-.element1{
-  .textoinicial__titulo1--2 {
+.element1 {
+  .TextoInicialTitulo12 {
     font-size: 36px;
-    background-color:$colorprincipal;
+    background-color: $colorprincipal;
     width: 10cm;
     border-radius: 9px;
     margin: 0.2cm auto;
@@ -16,45 +16,43 @@
   }
 }
 
+.d-block {
+  margin: 0.5cm auto;
+  width: auto;
+  height: 14cm;
+}
 
-  .d-block {
-    margin: 0.5cm auto;
-    width: auto;
-    height: 14cm;}
+.Epi {
+  width: 80%;
+  text-align: center;
+  margin: 0.2cm auto;
+  background-color: #09718b88;
+  font-size: 12px;
+}
 
-  .epi {
-    width: 80%;
-    text-align: center;
-    margin: 0.2cm auto;
-    background-color: #09718b88;
-    font-size: 12px;
-  }
+.Epi3 {
+  font-size: 12px;
+  width: 35%;
+  text-align: center;
+  margin: 0.2cm auto;
+  background-color: #09718b88;
+  color: rgb(255, 255, 255);
+}
+.Epi33 {
+  color: rgb(192, 192, 192);
+  font-weight: bold;
+}
 
- 
-  
-  .epi3 {
-    font-size: 12px;
-    width: 35%;
-    text-align: center;
-    margin: 0.2cm auto;
-    background-color: #09718b88;
-    color: rgb(255, 255, 255);
-  }
-  .epi33 {
-    color: rgb(192, 192, 192);
-    font-weight: bold;
-  }
-  
-  .carousel-control-next-icon {
-    background-color: rgba(122, 122, 122, 0.651);
-  }
-  
-  .carousel-control-prev-icon {
-    background-color: rgba(146, 19, 19, 0.658);
-  }
-  
-  .auto3__imagen {
-    width: 60%;
-    height: 10cm;
-    margin-left: 6.2cm;
-  }
+.carousel-control-next-icon {
+  background-color: rgba(122, 122, 122, 0.651);
+}
+
+.carousel-control-prev-icon {
+  background-color: rgba(146, 19, 19, 0.658);
+}
+
+// .auto3__imagen {
+//   width: 60%;
+//   height: 10cm;
+//   margin-left: 6.2cm;
+// }

@@ -1,8 +1,10 @@
 /* vista tableta alta gama */
 @media (max-width: 1365px) {
- /*navbar tab*/ 
- main{ padding-top: 3cm;}
- .enlace {
+  /*navbar tab*/
+  main {
+    padding-top: 3cm;
+  }
+  .enlace {
     background-color: transparent;
     padding-left: 0;
     font-size: 20px;
@@ -17,12 +19,10 @@
     margin: 0 5px;
     margin-top: 38px;
   }
-
 }
 
-.epi{
+.Epi {
   width: 70%;
-    
 }
 
 /*vista tableta convencionales*/
@@ -45,41 +45,38 @@
   }
   /*index tab*/
 
-  .textoinicial__titulo11 {
+  .TextoInicialTitulo11 {
     font-weight: 300;
     font-size: 60px;
   }
 
-  .textoinicial__titulo22 {
+  .TextoInicialTitulo22 {
     margin: 0.5 auto;
   }
 
-  .textoinicial__parrafos {
+  .TextoInicialParrafos {
     color: black;
     font-weight: bolder;
     text-align: justify;
     padding: 15px;
-   
-    
   }
 
-main {
-  .textocontacto {
-  .textoinicial__titulo1{
-    font-size: 30px;
-  }
+  main {
+    .textocontacto {
+      .textoinicial__titulo1 {
+        font-size: 30px;
+      }
 
-  .textoinicial__titulo2{
-    font-size: 16px;
+      .textoinicial__titulo2 {
+        font-size: 16px;
+      }
+    }
   }
-}
-}
 
   .card {
     margin-top: 1cm;
   }
 
-  
   /* impacto tab*/
   .d-block {
     margin: 0.5cm auto;
@@ -90,7 +87,7 @@ main {
     margin: 0.5cm auto;
   }
 
-  .textoinicial__titulo1--2 {
+  .TextoInicialTitulo12 {
     font-size: 30px;
     background-color: $colorprincipal;
     font-weight: bold;
@@ -105,12 +102,12 @@ main {
     height: 10cm;
     margin-left: 3cm;
   }
-  .epi {
+  .Epi {
     font-size: 12px;
     width: 60%;
   }
 
-  .overlay-titulo {
+  .OverlayTitulo {
     font-size: 12px;
     width: 100% !important;
   }
@@ -180,11 +177,11 @@ main {
   footer {
     height: 2cm;
 
-    .linkb {
+    .Linkb{
       display: none;
     }
 
-    .copi {
+    .Copi {
       justify-content: flex-end;
       align-items: flex-end;
       color: rgb(255, 255, 255);
@@ -194,53 +191,51 @@ main {
   }
 
   /*index mob*/
-main{
-  .textoinicial__titulo11 {
-    font-weight: bold;
-    font-size: 50px;
+  main {
+    .TextoInicialTitulo11 {
+      font-weight: bold;
+      font-size: 50px;
+    }
 
+    .TextoInicialTitulo22 {
+      margin-bottom: 0.5cm;
+      width: auto;
+    }
   }
-
-  .textoinicial__titulo22 {
-   
-    margin-bottom: 0.5cm;
-    width: auto;
-  }
-}
   .card {
     margin: 0.5cm auto;
     position: unset;
   }
 
-  .grido {
+  .Grido {
     display: flex !important;
     flex-direction: column;
   }
-  .textobio {
+  .TextoBio {
     padding-right: 30px;
     padding-left: 30px;
   }
- 
-  .parrafoindex{
-    padding-left: 20px ;
-    padding-right: 20px; ;
+
+  .ParrafoIndex {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   /*biografia mob*/
 
-  main{.titulobio {
-  margin-top: 1cm;
-    width: auto,
-    
-  
+  main {
+    .TituloBio{
+      margin-top: 1cm;
+      width: auto;
+    }
+    .TextoInicialParrafos {
+      padding: 0px;
+    }
   }
-  .textoinicial__parrafos {
-    padding: 0px;
-  }}
 
   /*galeria mob*/
 
-  .overlay-titulo {
+  .OverlayTitulo {
     width: 100%;
     background-color: #09718bb2;
     padding: 5px;
@@ -253,22 +248,21 @@ main{
 
   /* contacto mob*/
 
-  .grid-container > * {
+  .GridContainer > * {
     padding: 10px;
     margin: 0.5cm auto;
   }
 
-
-  .textoinicial__titulo1 {
+  .TextoInicialTitulo1 {
     color: #fff;
     margin-left: 10px;
   }
 
-  .textoinicial__titulo2 {
+  .TextoInicialTitulo2 {
     font-size: 16px;
     width: auto;
   }
-  .row{
+  .row {
     display: block;
   }
 
@@ -278,66 +272,76 @@ main{
     height: 9cm;
   }
   .element1 {
-  .textoinicial__titulo1--2 {
-    font-size: 24px;
-    background-color: $colorprincipal;
-    font-weight: bold;
-    margin: 0.5cm auto;
-    width: auto;
+    .TextoInicialTitulo12 {
+      font-size: 24px;
+      background-color: $colorprincipal;
+      font-weight: bold;
+      margin: 0.5cm auto;
+      width: auto;
+    }
   }
-}
   .text-center {
     margin-left: 0.5cm auto;
   }
-  .epi {
+  .Epi {
     font-size: 12px;
     margin-left: 1cm;
     width: 90%;
   }
-  .epi3 {
+  .Epi3 {
     font-size: 12px;
     width: 75%;
   }
 
-  
-  .auto3__imagen {
-    width: 100%;
-    margin: $margenclasico !important;
-  }
+  // .auto3__imagen {
+  //   width: 100%;
+  //   margin: $margenclasico !important;
+  // }
 }
 
 // galaxy fold y dispositivos extra thin
 @media (max-width: 320px) {
-  nav{
-  .enlace {
-    margin-top: 40px;
-    margin-left: 5px;
-    font-size: 18px;}
-}
-
-main{
-
-  .titulobio{
-    font-size: 20px;
+  nav {
+    .enlace {
+      margin-top: 40px;
+      margin-left: 5px;
+      font-size: 18px;
+    }
   }
 
-  .grido{
-    .textobio{
-      padding-left: 15px;
-      padding-right: 15px;
-      .textoinicial__parrafos{
-        line-height: 15px;
-        font-weight: lighter;
+  main {
+    .TituloBio{
+      font-size: 20px;
+    }
+
+    .Grido {
+      .TextoBio {
+        padding-left: 15px;
+        padding-right: 15px;
+        .TextoInicialParrafos {
+          line-height: 15px;
+          font-weight: lighter;
+        }
       }
     }
   }
-}
-.subtitulo1{ font-size: 18px; padding-left: 20px;text-align: center}
-.subtitulo2{ font-size: 18px; padding-left: 20px; text-align: center}
-.subtitulo3{ font-size: 18px; padding-left: 20px;text-align: center}
+  .Subtitulo1 {
+    font-size: 18px;
+    padding-left: 20px;
+    text-align: center;
+  }
+  .Subtitulo2 {
+    font-size: 18px;
+    padding-left: 20px;
+    text-align: center;
+  }
+  .Subtitulo3 {
+    font-size: 18px;
+    padding-left: 20px;
+    text-align: center;
+  }
 
-.element1 .textoinicial__titulo1--2{
-font-size: 18px;
-}
-
+  .element1 .TextoInicialTitulo12 {
+    font-size: 18px;
+  }
 }

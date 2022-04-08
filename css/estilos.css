@@ -85,12 +85,12 @@ footer {
     padding-bottom: 1px;
     line-height: 25px;
     padding-top: 30px; }
-    footer .MenuInferior .linkb {
+    footer .MenuInferior .Linkb {
       letter-spacing: 1px;
       color: white;
       font-weight: bolder;
       padding: 3px; }
-  footer .copi {
+  footer .Copi {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -101,14 +101,14 @@ footer {
     background-color: #bdfcfc21; }
 
 /*index*/
-main .textoinicial__titulo11 {
+main .TextoInicialTitulo11 {
   color: #000855;
   font-weight: 600;
   text-align: center;
   font-size: 80px;
   letter-spacing: 3px; }
 
-main .textoinicial__titulo22 {
+main .TextoInicialTitulo22 {
   background-color: #ffae00d7;
   font-size: 20px;
   border-radius: 15px;
@@ -136,7 +136,7 @@ main .card {
       width: 100%;
       text-align: center; }
 
-.textoinicial__parrafos {
+.TextoInicialParrafos {
   color: black;
   font-weight: bolder;
   text-align: justify;
@@ -176,7 +176,7 @@ main .card {
     opacity: 1; } }
 
 /*pagina biografia*/
-main .titulobio {
+main .TituloBio {
   background-color: #ffae00d7;
   border-radius: 15px;
   text-align: center;
@@ -186,41 +186,41 @@ main .titulobio {
   margin-bottom: 1cm;
   font-weight: bold; }
 
-main .grido {
+main .Grido {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: auto; }
 
-main .imagenbio {
+main .ImagenBio {
   padding: 30px; }
 
-.subtitulo1 {
+.Subtitulo1 {
   color: #55acee;
   margin: 0.5cm auto;
   padding-left: 40px; }
 
-.subtitulo2 {
+.Subtitulo2 {
   color: #007914;
   margin: 0.5cm auto;
   padding-left: 40px; }
 
-.subtitulo3 {
+.Subtitulo3 {
   color: #c25e30;
   margin: 0.5cm auto;
   padding-left: 40px; }
 
 /* galeria*/
-.gallery {
+.Gallery {
   background-color: transparent;
   padding: 80px 0;
   height: auto; }
-  .gallery .col__overlaycontenedor img {
+  .Gallery .col__OverlayContenedor img {
     background-color: #ffffff;
     padding: 15px;
     width: 100%;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
     cursor: pointer; }
-  .gallery .col__overlaycontenedor .overlay {
+  .Gallery .col__OverlayContenedor .Overlay {
     background-color: #09718b88;
     height: 30%;
     opacity: 0;
@@ -228,7 +228,7 @@ main .imagenbio {
     transform: translate(0%, -100%);
     transition: 0.5s ease;
     position: relative; }
-    .gallery .col__overlaycontenedor .overlay .overlay-titulo {
+    .Gallery .col__OverlayContenedor .Overlay .OverlayTitulo {
       color: #fff;
       font-size: 14px;
       text-align: center;
@@ -238,11 +238,11 @@ main .imagenbio {
       width: 90%;
       transform: translate(-50%, -50%); }
 
-.col__overlaycontenedor:hover .overlay {
+.col__OverlayContenedor:hover .Overlay {
   opacity: 1; }
 
 /* pagian de impacto cultural*/
-.element1 .textoinicial__titulo1--2 {
+.element1 .TextoInicialTitulo12 {
   font-size: 36px;
   background-color: #ffae00d7;
   width: 10cm;
@@ -261,14 +261,14 @@ main .imagenbio {
   width: auto;
   height: 14cm; }
 
-.epi {
+.Epi {
   width: 80%;
   text-align: center;
   margin: 0.2cm auto;
   background-color: #09718b88;
   font-size: 12px; }
 
-.epi3 {
+.Epi3 {
   font-size: 12px;
   width: 35%;
   text-align: center;
@@ -276,7 +276,7 @@ main .imagenbio {
   background-color: #09718b88;
   color: white; }
 
-.epi33 {
+.Epi33 {
   color: silver;
   font-weight: bold; }
 
@@ -286,13 +286,8 @@ main .imagenbio {
 .carousel-control-prev-icon {
   background-color: rgba(146, 19, 19, 0.658); }
 
-.auto3__imagen {
-  width: 60%;
-  height: 10cm;
-  margin-left: 6.2cm; }
-
 /* pagina contacto*/
-main .textocontacto .textoinicial__titulo1 {
+main .TextoContacto .TextoInicialTitulo1 {
   color: black;
   font-weight: 600;
   text-align: center;
@@ -300,7 +295,7 @@ main .textocontacto .textoinicial__titulo1 {
   letter-spacing: 1px;
   margin: 0.5cm auto; }
 
-main .textocontacto .textoinicial__titulo2 {
+main .TextoContacto .TextoInicialTitulo2 {
   background-color: #ffae00d7;
   font-size: 18px;
   border-radius: 15px;
@@ -310,7 +305,7 @@ main .textocontacto .textoinicial__titulo2 {
   color: white;
   padding: 5px; }
 
-#efectocontacto {
+#EfectoContacto {
   -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
   animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both; }
 
@@ -334,15 +329,15 @@ main .textocontacto .textoinicial__titulo2 {
     filter: blur(0px);
     opacity: 1; } }
 
-.form-group {
+.FormGroup {
   margin-bottom: 20px; }
 
-.form-label {
+.FormLabel {
   font-size: 1em;
   color: #000000;
   font-weight: bolder; }
 
-.form-control {
+.FormControl {
   background-color: white;
   border-radius: 5px;
   border-style: none;
@@ -354,12 +349,12 @@ main .textocontacto .textoinicial__titulo2 {
   width: 100%;
   height: 4cm; }
 
-.grid-container {
+.GridContainer {
   background-color: transparent;
   display: flex;
   flex-direction: column; }
 
-.grid-container > * {
+.GridContainer > * {
   background-color: rgba(7, 130, 161, 0.911);
   padding: 40px;
   width: 90%; }
@@ -388,7 +383,7 @@ main .textocontacto .textoinicial__titulo2 {
     margin: 0 5px;
     margin-top: 38px; } }
 
-.epi {
+.Epi {
   width: 70%; }
 
 /*vista tableta convencionales*/
@@ -405,12 +400,12 @@ main .textocontacto .textoinicial__titulo2 {
     margin: 0 5px;
     margin-top: 38px; }
   /*index tab*/
-  .textoinicial__titulo11 {
+  .TextoInicialTitulo11 {
     font-weight: 300;
     font-size: 60px; }
-  .textoinicial__titulo22 {
+  .TextoInicialTitulo22 {
     margin: 0.5 auto; }
-  .textoinicial__parrafos {
+  .TextoInicialParrafos {
     color: black;
     font-weight: bolder;
     text-align: justify;
@@ -428,7 +423,7 @@ main .textocontacto .textoinicial__titulo2 {
     height: 14cm; }
   .textoinicial__titulo1 {
     margin: 0.5cm auto; }
-  .textoinicial__titulo1--2 {
+  .TextoInicialTitulo12 {
     font-size: 30px;
     background-color: #ffae00d7;
     font-weight: bold;
@@ -439,10 +434,10 @@ main .textocontacto .textoinicial__titulo2 {
     width: 70%;
     height: 10cm;
     margin-left: 3cm; }
-  .epi {
+  .Epi {
     font-size: 12px;
     width: 60%; }
-  .overlay-titulo {
+  .OverlayTitulo {
     font-size: 12px;
     width: 100% !important; } }
 
@@ -490,41 +485,41 @@ main .textocontacto .textoinicial__titulo2 {
     box-shadow: none; }
   footer {
     height: 2cm; }
-    footer .linkb {
+    footer .Linkb {
       display: none; }
-    footer .copi {
+    footer .Copi {
       justify-content: flex-end;
       align-items: flex-end;
       color: white;
       width: 100%;
       background-color: transparent; }
   /*index mob*/
-  main .textoinicial__titulo11 {
+  main .TextoInicialTitulo11 {
     font-weight: bold;
     font-size: 50px; }
-  main .textoinicial__titulo22 {
+  main .TextoInicialTitulo22 {
     margin-bottom: 0.5cm;
     width: auto; }
   .card {
     margin: 0.5cm auto;
     position: unset; }
-  .grido {
+  .Grido {
     display: flex !important;
     flex-direction: column; }
-  .textobio {
+  .TextoBio {
     padding-right: 30px;
     padding-left: 30px; }
-  .parrafoindex {
+  .ParrafoIndex {
     padding-left: 20px;
     padding-right: 20px; }
   /*biografia mob*/
-  main .titulobio {
+  main .TituloBio {
     margin-top: 1cm;
     width: auto; }
-  main .textoinicial__parrafos {
+  main .TextoInicialParrafos {
     padding: 0px; }
   /*galeria mob*/
-  .overlay-titulo {
+  .OverlayTitulo {
     width: 100%;
     background-color: #09718bb2;
     padding: 5px; }
@@ -533,13 +528,13 @@ main .textocontacto .textoinicial__titulo2 {
     margin: 0.5cm auto;
     padding: 20px; }
   /* contacto mob*/
-  .grid-container > * {
+  .GridContainer > * {
     padding: 10px;
     margin: 0.5cm auto; }
-  .textoinicial__titulo1 {
+  .TextoInicialTitulo1 {
     color: #fff;
     margin-left: 10px; }
-  .textoinicial__titulo2 {
+  .TextoInicialTitulo2 {
     font-size: 16px;
     width: auto; }
   .row {
@@ -548,7 +543,7 @@ main .textocontacto .textoinicial__titulo2 {
   .d-block {
     width: 15cm;
     height: 9cm; }
-  .element1 .textoinicial__titulo1--2 {
+  .element1 .TextoInicialTitulo12 {
     font-size: 24px;
     background-color: #ffae00d7;
     font-weight: bold;
@@ -556,41 +551,38 @@ main .textocontacto .textoinicial__titulo2 {
     width: auto; }
   .text-center {
     margin-left: 0.5cm auto; }
-  .epi {
+  .Epi {
     font-size: 12px;
     margin-left: 1cm;
     width: 90%; }
-  .epi3 {
+  .Epi3 {
     font-size: 12px;
-    width: 75%; }
-  .auto3__imagen {
-    width: 100%;
-    margin: 0.5cm auto !important; } }
+    width: 75%; } }
 
 @media (max-width: 320px) {
   nav .enlace {
     margin-top: 40px;
     margin-left: 5px;
     font-size: 18px; }
-  main .titulobio {
+  main .TituloBio {
     font-size: 20px; }
-  main .grido .textobio {
+  main .Grido .TextoBio {
     padding-left: 15px;
     padding-right: 15px; }
-    main .grido .textobio .textoinicial__parrafos {
+    main .Grido .TextoBio .TextoInicialParrafos {
       line-height: 15px;
       font-weight: lighter; }
-  .subtitulo1 {
+  .Subtitulo1 {
     font-size: 18px;
     padding-left: 20px;
     text-align: center; }
-  .subtitulo2 {
+  .Subtitulo2 {
     font-size: 18px;
     padding-left: 20px;
     text-align: center; }
-  .subtitulo3 {
+  .Subtitulo3 {
     font-size: 18px;
     padding-left: 20px;
     text-align: center; }
-  .element1 .textoinicial__titulo1--2 {
+  .element1 .TextoInicialTitulo12 {
     font-size: 18px; } }
