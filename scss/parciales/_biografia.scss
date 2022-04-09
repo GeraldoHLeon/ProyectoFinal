@@ -19,6 +19,9 @@ main {
   }
 }
 
+
+
+
 .Subtitulo1 {
   @include subtitulos(#55acee, $margenclasico);
   padding-left: $relleno;

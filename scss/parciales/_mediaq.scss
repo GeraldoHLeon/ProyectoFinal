@@ -24,6 +24,14 @@
 .Epi {
   width: 70%;
 }
+.GridoB{
+  display:grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-row: auto;
+  gap: 20px;
+margin: 0.5cm auto;
+margin-left: 30px;
+}
 
 /*vista tableta convencionales*/
 @media (max-width: 991px) {
@@ -98,11 +106,7 @@
     margin-left: 0.5cm auto;
   }
 
-  .auto3__imagen {
-    width: 70%;
-    height: 10cm;
-    margin-left: 3cm;
-  }
+ 
   .Epi {
     font-size: 12px;
     width: 60%;
@@ -298,7 +302,15 @@
     width: 75%;
   }
 
- 
+  .GridoB{
+    display:flex;
+    flex-direction: column;
+   
+    gap: 20px;
+  margin: 0.5cm auto;
+  margin-left: 25px;
+  margin-right: 25px; ;
+  }
 
 
 // galaxy fold y dispositivos extra thin
