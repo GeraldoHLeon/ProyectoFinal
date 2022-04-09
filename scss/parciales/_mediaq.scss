@@ -45,15 +45,16 @@
   }
   /*index tab*/
 
-  .TextoInicialTitulo11 {
+  main
+  {.TextoInicialTitulo11 {
     font-weight: 300;
     font-size: 60px;
   }
-
-  .TextoInicialTitulo22 {
+}
+.col{ .TextoInicialTitulo22 {
     margin: 0.5 auto;
   }
-
+}
   .TextoInicialParrafos {
     color: black;
     font-weight: bolder;
@@ -63,9 +64,7 @@
 
   main {
     .textocontacto {
-      .textoinicial__titulo1 {
-        font-size: 30px;
-      }
+     
 
       .textoinicial__titulo2 {
         font-size: 16px;
@@ -76,7 +75,9 @@
   .card {
     margin-top: 1cm;
   }
-
+  .textoinicial__titulo1 {
+    font-size: 30px; 
+  }
   /* impacto tab*/
   .d-block {
     margin: 0.5cm auto;
@@ -197,10 +198,12 @@
       font-size: 50px;
     }
 
-    .TextoInicialTitulo22 {
+.container{
+.TextoInicialTitulo22 {
       margin-bottom: 0.5cm;
       width: auto;
     }
+  }
   }
   .card {
     margin: 0.5cm auto;
@@ -254,8 +257,10 @@
   }
 
   .TextoInicialTitulo1 {
-    color: #fff;
-    margin-left: 10px;
+    color: rgb(0, 0, 0);
+    margin:0.3cm auto;
+    font-size: 35px;
+    width: auto;
   }
 
   .TextoInicialTitulo2 {
@@ -294,7 +299,7 @@
   }
 
  
-}
+
 
 // galaxy fold y dispositivos extra thin
 @media (max-width: 320px) {
@@ -315,12 +320,14 @@
       .TextoBio {
         padding-left: 15px;
         padding-right: 15px;
-        .TextoInicialParrafos {
-          line-height: 15px;
-          font-weight: lighter;
-        }
+        
       }
     }
+  }
+
+  .TextoInicialParrafos {
+    line-height: 15px;
+    font-weight: lighter;
   }
   .Subtitulo1 {
     font-size: 18px;
@@ -341,4 +348,9 @@
   .element1 .TextoInicialTitulo12 {
     font-size: 18px;
   }
+
+  .FormControl{ 
+    font-size: 12px;
+  }
+}
 }

@@ -108,7 +108,7 @@ main .TextoInicialTitulo11 {
   font-size: 80px;
   letter-spacing: 3px; }
 
-main .container .row .col .TextoInicialTitulo22 {
+main .container .TextoInicialTitulo22 {
   background-color: #ffae00d7;
   font-size: 20px;
   border-radius: 15px;
@@ -117,7 +117,7 @@ main .container .row .col .TextoInicialTitulo22 {
   width: 10cm;
   margin: 0.5cm auto; }
 
-main .container .row .col .TextoInicialParrafos {
+main .container .TextoInicialParrafos {
   color: black;
   font-weight: bolder;
   text-align: justify;
@@ -165,7 +165,7 @@ main .container .row .col .TextoInicialParrafos {
     box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.822);
     transition: 1s; }
     .card .card-img-top:hover {
-      transform: scale(1.3);
+      transform: scale(1.1);
       z-index: 2;
       box-shadow: 2px 2px 2px #000; }
   .card .card-body {
@@ -294,30 +294,32 @@ main .Grido {
 /* pagina contacto*/
 main .container {
   margin-bottom: 1cm; }
-  main .container .row .col .GridContainer {
+  main .container .GridContainer {
     background-color: transparent;
     display: flex;
     flex-direction: column; }
-  main .container .row .col .GridContainer > * {
+  main .container .GridContainer > * {
     background-color: rgba(7, 130, 161, 0.911);
     padding: 40px;
     width: 90%; }
-  main .container .row .col .GridLeft .TextoContacto .TextoInicialTitulo1 {
-    color: black;
-    font-weight: 600;
-    text-align: center;
-    font-size: 50px;
-    letter-spacing: 1px;
-    margin: 0.5cm auto; }
-  main .container .row .col .GridLeft .TextoContacto .TextoInicialTitulo2 {
-    background-color: #ffae00d7;
-    font-size: 18px;
-    border-radius: 15px;
-    text-align: center;
-    width: 100%;
-    margin-left: 0.5cm auto;
-    color: white;
-    padding: 5px; }
+
+.TextoInicialTitulo1 {
+  color: black;
+  font-weight: 600;
+  text-align: center;
+  font-size: 50px;
+  letter-spacing: 1px;
+  margin: 0.5cm auto; }
+
+.TextoInicialTitulo2 {
+  background-color: #ffae00d7;
+  font-size: 18px;
+  border-radius: 15px;
+  text-align: center;
+  width: 100%;
+  margin-left: 0.5cm auto;
+  color: white;
+  padding: 5px; }
 
 #EfectoContacto {
   -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
@@ -356,8 +358,8 @@ main .container {
   border-radius: 5px;
   border-style: none;
   padding: 5px;
-  width: 60%;
-  height: 1cm; }
+  height: 1cm;
+  text-align: justify; }
 
 #textarea1 {
   width: 100%;
@@ -401,22 +403,22 @@ main .container {
     margin: 0 5px;
     margin-top: 38px; }
   /*index tab*/
-  .TextoInicialTitulo11 {
+  main .TextoInicialTitulo11 {
     font-weight: 300;
     font-size: 60px; }
-  .TextoInicialTitulo22 {
+  .col .TextoInicialTitulo22 {
     margin: 0.5 auto; }
   .TextoInicialParrafos {
     color: black;
     font-weight: bolder;
     text-align: justify;
     padding: 15px; }
-  main .textocontacto .textoinicial__titulo1 {
-    font-size: 30px; }
   main .textocontacto .textoinicial__titulo2 {
     font-size: 16px; }
   .card {
     margin-top: 1cm; }
+  .textoinicial__titulo1 {
+    font-size: 30px; }
   /* impacto tab*/
   .d-block {
     margin: 0.5cm auto;
@@ -498,7 +500,7 @@ main .container {
   main .TextoInicialTitulo11 {
     font-weight: bold;
     font-size: 50px; }
-  main .TextoInicialTitulo22 {
+  main .container .TextoInicialTitulo22 {
     margin-bottom: 0.5cm;
     width: auto; }
   .card {
@@ -533,8 +535,10 @@ main .container {
     padding: 10px;
     margin: 0.5cm auto; }
   .TextoInicialTitulo1 {
-    color: #fff;
-    margin-left: 10px; }
+    color: black;
+    margin: 0.3cm auto;
+    font-size: 35px;
+    width: auto; }
   .TextoInicialTitulo2 {
     font-size: 16px;
     width: auto; }
@@ -560,7 +564,7 @@ main .container {
     font-size: 12px;
     width: 75%; } }
 
-@media (max-width: 320px) {
+@media (max-width: 767px) and (max-width: 320px) {
   nav .enlace {
     margin-top: 40px;
     margin-left: 5px;
@@ -570,9 +574,9 @@ main .container {
   main .Grido .TextoBio {
     padding-left: 15px;
     padding-right: 15px; }
-    main .Grido .TextoBio .TextoInicialParrafos {
-      line-height: 15px;
-      font-weight: lighter; }
+  .TextoInicialParrafos {
+    line-height: 15px;
+    font-weight: lighter; }
   .Subtitulo1 {
     font-size: 18px;
     padding-left: 20px;
@@ -586,4 +590,6 @@ main .container {
     padding-left: 20px;
     text-align: center; }
   .element1 .TextoInicialTitulo12 {
-    font-size: 18px; } }
+    font-size: 18px; }
+  .FormControl {
+    font-size: 12px; } }

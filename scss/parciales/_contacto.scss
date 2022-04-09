@@ -1,10 +1,10 @@
 /* pagina contacto*/
 
 main {
+ 
   .container {
     margin-bottom: 1cm;
-  .row{
-      .col{
+ 
         .GridContainer {
         background-color: transparent;
         display: flex;
@@ -15,38 +15,30 @@ main {
         padding: 40px;
         width: 90%;
       }
-      .GridLeft{
-        .TextoContacto {
-          .TextoInicialTitulo1 {
-            color: black;
-            font-weight: 600;
-            text-align: center;
-            font-size: 50px;
-            letter-spacing: 1px;
-            margin: 0.5cm auto;
-          }
-          .TextoInicialTitulo2 {
-            background-color: $colorprincipal;
-            font-size: 18px;
-            border-radius: 15px;
-            text-align: center;
-            width: 100%;
-            margin-left: 0.5cm auto;
-            color: white;
-            padding: 5px;
-          }
-        }
-
-
-
-      }
-    }
-      
+  
       }
 }
+
+
+.TextoInicialTitulo1 {
+  color: black;
+  font-weight: 600;
+  text-align: center;
+  font-size: 50px;
+  letter-spacing: 1px;
+  margin: 0.5cm auto;
 }
 
-
+.TextoInicialTitulo2 {
+  background-color: $colorprincipal;
+  font-size: 18px;
+  border-radius: 15px;
+  text-align: center;
+  width: 100%;
+  margin-left: 0.5cm auto;
+  color: white;
+  padding: 5px;
+}
 #EfectoContacto {
   -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
   animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
@@ -92,8 +84,8 @@ main {
   border-radius: 5px;
   border-style: none;
   padding: 5px;
-  width: 60%;
   height: 1cm;
+  text-align: justify;
 }
 #textarea1 {
   width: 100%;
