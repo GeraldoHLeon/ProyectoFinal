@@ -9,7 +9,6 @@ main {
     margin: 0 auto;
     margin-bottom: 0.3cm;
     font-weight: bold;
-   
   }
 
   .Grido {
@@ -18,9 +17,6 @@ main {
     grid-template-rows: auto;
   }
 }
-
-
-
 
 .Subtitulo1 {
   @include subtitulos(#55acee, $margenclasico);
@@ -34,7 +30,7 @@ main {
   @include subtitulos(#c25e30, $margenclasico);
   padding-left: $relleno;
 }
-.TextoInicialParrafos{ 
+.TextoInicialParrafos {
   color: black;
   font-weight: bolder;
   text-align: justify;

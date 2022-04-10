@@ -24,13 +24,13 @@
 .Epi {
   width: 70%;
 }
-.GridoB{
-  display:grid;
+.GridoB {
+  display: grid;
   grid-template-columns: 30% 30% 30%;
   grid-row: auto;
   gap: 20px;
-margin: 0.5cm auto;
-margin-left: 30px;
+  margin: 0.5cm auto;
+  margin-left: 30px;
 }
 
 /*vista tableta convencionales*/
@@ -53,16 +53,17 @@ margin-left: 30px;
   }
   /*index tab*/
 
-  main
-  {.TextoInicialTitulo11 {
-    font-weight: 300;
-    font-size: 60px;
+  main {
+    .TextoInicialTitulo11 {
+      font-weight: 300;
+      font-size: 60px;
+    }
   }
-}
-.col{ .TextoInicialTitulo22 {
-    margin: 0.5 auto;
+  .col {
+    .TextoInicialTitulo22 {
+      margin: 0.5 auto;
+    }
   }
-}
   .TextoInicialParrafos {
     color: black;
     font-weight: bolder;
@@ -72,8 +73,6 @@ margin-left: 30px;
 
   main {
     .textocontacto {
-     
-
       .textoinicial__titulo2 {
         font-size: 16px;
       }
@@ -84,7 +83,7 @@ margin-left: 30px;
     margin-top: 1cm;
   }
   .textoinicial__titulo1 {
-    font-size: 30px; 
+    font-size: 30px;
   }
   /* impacto tab*/
   .d-block {
@@ -106,7 +105,6 @@ margin-left: 30px;
     margin-left: 0.5cm auto;
   }
 
- 
   .Epi {
     font-size: 12px;
     width: 60%;
@@ -182,7 +180,7 @@ margin-left: 30px;
   footer {
     height: 2cm;
 
-    .Linkb{
+    .Linkb {
       display: none;
     }
 
@@ -202,12 +200,12 @@ margin-left: 30px;
       font-size: 50px;
     }
 
-.container{
-.TextoInicialTitulo22 {
-      margin-bottom: 0.5cm;
-      width: auto;
+    .container {
+      .TextoInicialTitulo22 {
+        margin-bottom: 0.5cm;
+        width: auto;
+      }
     }
-  }
   }
   .card {
     margin: 0.5cm auto;
@@ -231,7 +229,7 @@ margin-left: 30px;
   /*biografia mob*/
 
   main {
-    .TituloBio{
+    .TituloBio {
       margin-top: 1cm;
       width: auto;
     }
@@ -262,7 +260,7 @@ margin-left: 30px;
 
   .TextoInicialTitulo1 {
     color: rgb(0, 0, 0);
-    margin:0.3cm auto;
+    margin: 0.3cm auto;
     font-size: 35px;
     width: auto;
   }
@@ -302,67 +300,65 @@ margin-left: 30px;
     width: 75%;
   }
 
-  .GridoB{
-    display:flex;
+  .GridoB {
+    display: flex;
     flex-direction: column;
-   
+
     gap: 20px;
-  margin: 0.5cm auto;
-  margin-left: 25px;
-  margin-right: 25px; ;
+    margin: 0.5cm auto;
+    margin-left: 25px;
+    margin-right: 25px;
   }
 
-
-// galaxy fold y dispositivos extra thin
-@media (max-width: 320px) {
-  nav {
-    .enlace {
-      margin-top: 40px;
-      margin-left: 5px;
-      font-size: 18px;
-    }
-  }
-
-  main {
-    .TituloBio{
-      font-size: 20px;
-    }
-
-    .Grido {
-      .TextoBio {
-        padding-left: 15px;
-        padding-right: 15px;
-        
+  // galaxy fold y dispositivos extra thin
+  @media (max-width: 320px) {
+    nav {
+      .enlace {
+        margin-top: 40px;
+        margin-left: 5px;
+        font-size: 18px;
       }
     }
-  }
 
-  .TextoInicialParrafos {
-    line-height: 15px;
-    font-weight: lighter;
-  }
-  .Subtitulo1 {
-    font-size: 18px;
-    padding-left: 20px;
-    text-align: center;
-  }
-  .Subtitulo2 {
-    font-size: 18px;
-    padding-left: 20px;
-    text-align: center;
-  }
-  .Subtitulo3 {
-    font-size: 18px;
-    padding-left: 20px;
-    text-align: center;
-  }
+    main {
+      .TituloBio {
+        font-size: 20px;
+      }
 
-  .element1 .TextoInicialTitulo12 {
-    font-size: 18px;
-  }
+      .Grido {
+        .TextoBio {
+          padding-left: 15px;
+          padding-right: 15px;
+        }
+      }
+    }
 
-  .FormControl{ 
-    font-size: 12px;
+    .TextoInicialParrafos {
+      line-height: 15px;
+      font-weight: lighter;
+    }
+    .Subtitulo1 {
+      font-size: 18px;
+      padding-left: 20px;
+      text-align: center;
+    }
+    .Subtitulo2 {
+      font-size: 18px;
+      padding-left: 20px;
+      text-align: center;
+    }
+    .Subtitulo3 {
+      font-size: 18px;
+      padding-left: 20px;
+      text-align: center;
+    }
+
+    .element1 .TextoInicialTitulo12 {
+      font-size: 18px;
+    }
+
+    .FormControl {
+      font-size: 12px;
+    }
   }
-}
 }
