@@ -7,33 +7,27 @@ main {
     font-size: 80px;
     letter-spacing: 3px;
   }
-.container{
-  .TextoInicialTitulo22 {
-    background-color: $colorprincipal;
-    font-size: 20px;
-    border-radius: 15px;
-    text-align: center;
-    color: #ffffff;
-    width: 10cm;
-    margin: 0.5cm auto;
+  .container {
+    .TextoInicialTitulo22 {
+      background-color: $colorprincipal;
+      font-size: 20px;
+      border-radius: 15px;
+      text-align: center;
+      color: #ffffff;
+      width: 10cm;
+      margin: 0.5cm auto;
+    }
+
+    .TextoInicialParrafos {
+      color: black;
+      font-weight: bolder;
+      text-align: justify;
+      padding: 25px;
+      width: 95%;
+      margin: 3%;
+    }
   }
-
-  .TextoInicialParrafos {
-    color: black;
-    font-weight: bolder;
-    text-align: justify;
-    padding: 25px;
-    width: 95%;
-    margin: 3%;
-  }
-
-
- 
 }
-  
-}
-
-
 
 /*efecto titulo*/
 .TextoInicialTitulo11 {
